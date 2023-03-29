@@ -52,3 +52,21 @@ Fenced Code Block         ```
                           }
                           ```
 ```
+
+# GitHub
+- a code hosting platform for version control and collaboration
+  + repository
+  + branch
+  + commit
+  + pull request
+
+- workflow
+  ```
+  1. Create a branch
+  2. Make changes
+  3. Create a pull request
+  4. Address review comments
+  5. Merge your pull request
+  6. Delete your branch
+  ```
+![main && feature](https://docs.github.com/assets/cb-23923/mw-1000/images/help/repository/branching.webp)
