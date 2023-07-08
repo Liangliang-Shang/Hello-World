@@ -8,7 +8,7 @@ Hello, World!
 >>> 
 ```
 # The Zen of Python
-```
+```python
 >>> import this
 The Zen of Python, by Tim Peters
 
@@ -36,10 +36,10 @@ Namespaces are one honking great idea -- let's do more of those!
 >>> 
 ```
 # Keyword
-```
+```python
 >>> import keyword
->>> keyword.kwlist
-['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+>>> keyword.kwlist[:5]
+['False', 'None', 'True', 'and', 'as']
 >>> 
 ```
 # Comment
@@ -54,7 +54,7 @@ February = 2
 mdays = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 ```
 
-## block or doc comment
+## Block or doc comment
 * after class or def, ''' ''' or """ """, e.g. Line 282 in os.py, which is part of doc.
 ```python
 def walk(top, topdown=True, onerror=None, followlinks=False):
@@ -82,7 +82,17 @@ walk(top, topdown=True, onerror=None, followlinks=False)
 
     dirpath is a string, the path to the directory. 
 ```
-# Data type && Variable
+# Variable
+```Python
+# urllib/request.py
+user = password = None
+```
+# Constant
+```python
+# gzip.py
+FTEXT, FHCRC, FEXTRA, FNAME, FCOMMENT = 1, 2, 4, 8, 16
+```
+# Data Type
 ## int
 ```Python
 >>> a, b, c = range(3, 6)
